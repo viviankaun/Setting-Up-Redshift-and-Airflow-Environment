@@ -15,10 +15,18 @@
 - /Pugins/operators/ 
 - /Pugins/operators/ 
 
-| First Header  | Second Header |.33333 |
-| ------------- | ------------- | ------|
-| create_tables.sql  | create tables   |. 33 |
-| udac_example_dag.py  | main airflow DAG  |   | 
+| File Namee | Descriptions  | 
+| ------------- | ------------- |  
+| create_tables.sql  | create tables   | 
+| udac_example_dag.py  | main airflow DAG  |  
+| ------------- | ------------- |  
+| data_quality.py  | checking table records   |   
+| load_dimension.py  | insert table from stage table |  
+| load_fact.py  | insert table from stage table |   
+| stage_redshift.py  | get data from s3 to redshift  |   
+| ------------- | ------------- |  
+
+
 
 
 
