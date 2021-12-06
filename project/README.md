@@ -8,15 +8,8 @@
        's3://udacity-dend/song_data/A/A/C/xxxx.JSON'
 
 ## Files 
-- /DAGS
-- /DAGS/sql/create_tables.sql: creat tables 
-- /DAGS/udac_example_dag.py 
-- /Pugins
-- /Pugins/operators/ 
-- /Pugins/operators/ 
-
 | File Namee | Descriptions  | 
-| ------------- | ------------- |  
+|- dags\ | ------------- |  
 | create_tables.sql  | create tables   | 
 | udac_example_dag.py  | main airflow DAG  |  
 |- plugins\operators | ------------- |  
@@ -29,6 +22,16 @@
 | __init__.py  |   |  
 | sql_queries.py  |  SQL statement of insert table   |   
 
+## COPY Statement from s3 to redshift
+```
+copy_sql = """
+        COPY {}
+        FROM '{}'
+        ACCESS_KEY_ID '{}'
+        SECRET_ACCESS_KEY '{}'
+        FORMAT AS {} 
+    """
+```
 
  
 
