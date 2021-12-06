@@ -19,21 +19,18 @@
 | ------------- | ------------- |  
 | create_tables.sql  | create tables   | 
 | udac_example_dag.py  | main airflow DAG  |  
-| ------------- | ------------- |  
+| plugins\operators | ------------- |  
+| __init__.py  |   |  
 | data_quality.py  | checking table records   |   
 | load_dimension.py  | insert table from stage table |  
 | load_fact.py  | insert table from stage table |   
 | stage_redshift.py  | get data from s3 to redshift  |   
-| ------------- | ------------- |  
+| plugins\helper | ------------- |  
+| __init__.py  |   |  
+| sql_queries.py  |  SQL statement of insert table   |   
 
 
-<!-- toc -->
-- old toc 1
-- old toc 2
-- old toc 3
-<!-- tocstop -->
-
-
+ 
 
 
 
