@@ -5,11 +5,11 @@
 
 # Airflow 
 
-![This is an image](img/Airflow_idx.png)
-![This is an image](img/airflowlist2.png)
-![This is an image](img/airflowlist3.png)
+![This is an image](Airflow_idx.png)
+![This is an image](airflowlist2.png)
+![This is an image](airflowlist3.png)
 
 
 # Redshift
-![This is an image](img/redshift.png)
-![This is an image](img/redshift_security_group.png)
+![This is an image](redshift.png)
+![This is an image](redshift_security_group.png)
