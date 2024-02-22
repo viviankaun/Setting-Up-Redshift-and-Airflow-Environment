@@ -1,7 +1,6 @@
 # S3 Access
 
-![This is an image](img/S3FullAccess.png)
-
+![This is an image](img/S3FullAccess.png) 
 
 # Airflow 
 
